@@ -1,1 +1,135 @@
-<mxfile host="app.diagrams.net" modified="2020-06-07T23:34:49.926Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36" version="13.1.14" etag="HauK54GHTJoM6KbC5CM_" type="github"><diagram id="G-j1BVmUvk0OO5u7GfVC">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-06-08T00:01:34.624Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36" etag="Z3t2ss33Yt_Q5fHOIjQn" version="13.1.14" type="github">
+  <diagram id="G-j1BVmUvk0OO5u7GfVC" name="Page-1">
+    <mxGraphModel dx="868" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="v4s302RXPZSnwtUlgJ2--1" value="User&lt;br&gt;{Dukander/Manger}" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="30" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v4s302RXPZSnwtUlgJ2--4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="220" y="30" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="v4s302RXPZSnwtUlgJ2--5" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" target="v4s302RXPZSnwtUlgJ2--4" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="30" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v4s302RXPZSnwtUlgJ2--6" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" source="v4s302RXPZSnwtUlgJ2--4" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="106" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v4s302RXPZSnwtUlgJ2--7" value="&lt;span&gt;&amp;nbsp;POST /api/v1/register/&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="190" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="v4s302RXPZSnwtUlgJ2--8" value="{&quot;phone_number&quot;}" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="37" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="v4s302RXPZSnwtUlgJ2--9" value="&lt;span&gt;{&quot;otp&quot;}&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="110" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="v4s302RXPZSnwtUlgJ2--10" value="Owner" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="30" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v4s302RXPZSnwtUlgJ2--15" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="510" y="30" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="v4s302RXPZSnwtUlgJ2--16" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" target="v4s302RXPZSnwtUlgJ2--15" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="30" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v4s302RXPZSnwtUlgJ2--17" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" source="v4s302RXPZSnwtUlgJ2--15" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="106" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v4s302RXPZSnwtUlgJ2--18" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;b&gt;Object:JSON&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;Phone Number = IntegerField&lt;br&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="280" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="v4s302RXPZSnwtUlgJ2--19" value="{&quot;company_name&quot;:&lt;br&gt;&quot;company_address&quot;:&lt;br&gt;&quot;enter_manager_number&quot;:&lt;br&gt;}" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="30" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v4s302RXPZSnwtUlgJ2--20" value="POST /api/v1/details/" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="190" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="v4s302RXPZSnwtUlgJ2--21" value="&lt;b&gt;redirected to&lt;/b&gt; /api/v1/logged_in/" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="325" y="120" width="190" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="v4s302RXPZSnwtUlgJ2--22" value="Successful" style="shape=note;size=20;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="388" y="140" width="102" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v4s302RXPZSnwtUlgJ2--23" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;b&gt;Object:JSON&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;Company Name = &quot;string&quot;&lt;br&gt;Company Addres = &quot;String&quot;&lt;br&gt;Enter_manager_number = Integer&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="267" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="v4s302RXPZSnwtUlgJ2--24" value="" style="endArrow=none;dashed=1;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="450" as="sourcePoint" />
+            <mxPoint x="250" y="10" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v4s302RXPZSnwtUlgJ2--26" value="" style="endArrow=none;dashed=1;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="10" y="230" as="sourcePoint" />
+            <mxPoint x="570" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v4s302RXPZSnwtUlgJ2--27" value="Request" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="26" y="247" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="v4s302RXPZSnwtUlgJ2--28" value="" style="endArrow=classic;html=1;exitX=0.067;exitY=1.15;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="v4s302RXPZSnwtUlgJ2--27" target="v4s302RXPZSnwtUlgJ2--18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="10" y="320" as="sourcePoint" />
+            <mxPoint x="60" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="30" y="305" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v4s302RXPZSnwtUlgJ2--29" value="Request" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="291" y="249" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="v4s302RXPZSnwtUlgJ2--30" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.283;exitY=1.05;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="v4s302RXPZSnwtUlgJ2--29" target="v4s302RXPZSnwtUlgJ2--23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="320" as="sourcePoint" />
+            <mxPoint x="340" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="308" y="307" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v4s302RXPZSnwtUlgJ2--31" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;b&gt;Object:JSON&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;Otp = Integer&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="380" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="v4s302RXPZSnwtUlgJ2--32" value="Response" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="21" y="354" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="v4s302RXPZSnwtUlgJ2--33" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="v4s302RXPZSnwtUlgJ2--31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="375" as="sourcePoint" />
+            <mxPoint x="60" y="402" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="40" y="405" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v4s302RXPZSnwtUlgJ2--34" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;b&gt;Object:JSON&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;Token = TokenField&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="380" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="v4s302RXPZSnwtUlgJ2--35" value="Response" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="360" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="v4s302RXPZSnwtUlgJ2--36" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="v4s302RXPZSnwtUlgJ2--35" target="v4s302RXPZSnwtUlgJ2--34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="430" as="sourcePoint" />
+            <mxPoint x="360" y="380" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="335" y="405" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
